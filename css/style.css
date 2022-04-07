@@ -104,9 +104,27 @@ body{
 }
 
 /*BIOGRAFIA*/
-#photo{
+.box-league{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.331) ;
+}
+
+.box-league h2{
+    margin-bottom: 10px;
+}
+
+.photo{
+    display: flex;
     width: 100%;
-    height: max-content;
+}
+
+.photo img{
+    width: 100%;
+    height: fit-content;
 }
 
 .biografia{
