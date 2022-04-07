@@ -104,6 +104,10 @@ body{
 }
 
 /*BIOGRAFIA*/
+
+#photo{
+    width: 100%;
+}
 .box-league{
     display: flex;
     flex-direction: column;
